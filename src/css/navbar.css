@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: #4831D4;
+    color: white;
+}
+nav .logo{
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    font-weight: 400;
+}
+nav ul li{
+    margin: 0 15px;
+    
+}
+nav ul li a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    
+}
+a:hover{
+    color: #CCF381;
+    
+}
+@media (max-width:800px) {
+nav .logo{
+    font-size: 25px;
+}
+nav ul{
+    display: block;
+    justify-content: center;
+}
+nav ul li a{
+    font-size: 20px;
+}
+}
+
