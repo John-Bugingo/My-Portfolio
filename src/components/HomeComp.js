@@ -7,33 +7,18 @@ const HomeComp = () => {
       <div className="div0">
         <div className="div1">
           <Navbar />
+          <div className="home0">
           <div className="heading1">
-          <h1>Welcome to Home page</h1>
-          <h2>If you have an account here you can login and you continue</h2>
+          <h1>John BUGINGO</h1>
+          <h2>Software Developer</h2>
           </div>
           <div className="table1">
-          <table>
-            <tr>
-              <td>Name: </td>
-              <td><input type="text" placeholder="Enter your names" required /></td>
-            </tr>
-            <tr>
-              <td>Tel No:</td>
-              <td><input type="number" placeholder="Enter phone number" required/></td>
-            </tr>
-            <tr>
-              <td>Password: </td>
-              <td><input type="password" placeholder="input password" required /></td>
-            </tr>
-          </table>
-          </div>
-   
+            <img src="/john (1).jpg"></img>
+          </div>  
+          </div> 
         </div>
         <div className="div2">
-          <h1>This is the second division.</h1>
-          <h2>Here, I will use it to add on some of 
-            my links that you can click on in order to find it </h2>
-
+          <p><label>Hello,</label> As a junior UX/UI Designer based in Kigali, I get to combine my love for technology with my passion for Front-end and Back-end.<br/> I enjoy using my creativity and problem-solving skills to create coding experiences that not only look great but also work seamlessly for the user.<br/> I beleive that continuous learning is the key to success and I'm always on the lookout for fresh challenges to keep me motivated and engaged</p>
         </div>
       </div>
     </>

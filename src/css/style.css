@@ -12,14 +12,23 @@
 .div1{
     background-color: white;
     width: 75%;
-    height: 100vh;
-    
+    height: 100vh;    
+}
+.home0{
+    display: block;
+    align-items: center;
+    justify-content: center;
 }
 .table1{
     margin-top: 20px;
     display: flex;
+    align-items: center;
     justify-content: center;
 } 
+.table1 img{
+    height: 400px;
+} 
+
 .heading1{
     margin-top: 20px;
     display: flex;
@@ -28,15 +37,24 @@
     justify-content: center;
 } 
  
+
 .div2{
-    background-color:#CCF381;
+    background-color:hsl(81, 83%, 73%);
     width: 25%;
     display: block;
     height: 100vh;
 }
 
-.div2 h1, h2{
-    margin:  50px 20px;
+.div2 p{
+    margin: 20px 5px 0 15px;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+.div2 p label{
+    font-size: 80px;
+    display: flex;
+    justify-content: end;
+    text-align: end;
 }
 
 
@@ -111,12 +129,48 @@
 .aboutClass1{
     width: 33%;
     height: 100vh;
-    background-color: aqua;
+    background-color: rgb(244,240,237);
+}
+.aboutClass1 h1{
+    text-align: center;
+    font-size: 60px;
+    font-family:serif;
+}
+.aboutClass1 p{
+    margin: 15px;
+    font-size: 20px;
+    font-family:serif;
 }
 .aboutClass2{
     width: 33%;
     height: 100vh;
-    background-color:darkgray;
+    background-color:rgb(244,240,237);
+}
+.aboutClass2 h1{
+    text-align: center;
+    font-size: 60px;
+    font-family:serif;
+}
+.aboutClass2 h2{
+    text-align: center;
+    font-size: 30px;
+    font-family:serif;
+}
+.aboutClass2 h3{
+    text-align: center;
+    font-size: 20px;
+    font-family:serif;
+}
+.aboutClass2 ul{
+    margin: 0 5px 0 25px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.aboutClass2 p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
 }
 .aboutClass3{
     width: 34%;
@@ -172,7 +226,12 @@
     }
     .div1, .div2{
         width: 100%;
+        height: auto;
     }
+    .table1 img{
+        width: 100%;
+        height: auto;
+    } 
     .container{
         background-color: rgb(1, 1, 75);
         width: 100%;
@@ -184,6 +243,7 @@
     }
     .aboutClass1, .aboutClass2, .aboutClass3{
         width: 100%;
+        height: auto;
     }
     .ProjectClass, .ProjectClass2, .containerBlogs{
         display: flex;
@@ -206,6 +266,31 @@
     {
         width: 100%;
         height: 50%;
+    }
+    .div2 p{
+        margin: 20px 5px 0 15px;
+        font-size: 18px;
+        font-family: sans-serif;
+        padding: 0px 0px 70px 10px;
+
+    }
+    .div2 p label{
+        font-size: 50px;
+        display: flex;
+        justify-content: end;
+        text-align: end;
+    }
+    .div2{
+        background-color:hsl(81, 83%, 73%);
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+
+    /* login page */
+    .container{
+        width: 100%;
+        height: 100%;   
     }
     
 }
