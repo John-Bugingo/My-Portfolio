@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
 import {Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
 import Login from './pages/Login';
+import Blogs from './pages/Blogs';
 
 const AppRoutes = () => {
   return (
@@ -14,8 +15,8 @@ const AppRoutes = () => {
         <Route path="/about" element={<About />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
         <Route path="/projects" element={<Projects />}></Route>
+        <Route path="/blogs" element={<Blogs />}></Route>
         <Route path="/login" element={<Login />}></Route>
-
     </Routes>
   )
 }

@@ -1,8 +1,14 @@
-import React from 'react'
+import React from "react";
 
 const ProjectsComp = () => {
   return (
-    <h1>ProjectsComp</h1>
-  )
-}
-export default ProjectsComp
+    <div className="ProjectClass">
+      <div className="ProjectClass1">1</div>
+      <div className="ProjectClass2">
+        <div className="ProjectClass21">2</div>
+        <div className="ProjectClass22">3</div>
+      </div>
+    </div>
+  );
+};
+export default ProjectsComp;

@@ -1,62 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300&display=swap');
+
 *{
-    box-sizing: border-box;
-}
-body{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 .div0{
     display: flex;
 }
 .div1{
-    background-color: #4831D4;
-    width: 65%;
+    background-color: white;
+    width: 75%;
     height: 100vh;
+    
 }
+.table1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+} 
+.heading1{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} 
+ 
 .div2{
     background-color:#CCF381;
-    width: 35%;
+    width: 25%;
+    display: block;
     height: 100vh;
+}
+
+.div2 h1, h2{
+    margin:  50px 20px;
 }
 
 
 /*Login page*/
-.container{
+.container1{
     display: flex;
-    background-color: rgb(1, 1, 75);
-    text-align: center;
-    width: 300px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #4831D4; 
+
+
 }
+.container{
+    /* position: absolute; */
+    /* top: 110px; */
+    background-color: rgb(1, 1, 75);
+    width: 300px;
+   
+}
+
 .container h1{
     color: white;
     font-size: 32px;
     text-align: center;
+    margin-top: 12px;
 }
 .container .loginFoam{
     display: flex;
     color: white;
     font-size: 20px;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
     
     
+}
+.loginFoam{
+    margin: 12px;
 }
 .container .loginFoam tr{
     margin-top: 12px;
    
 }
-@media (max-width: 500px) {
+
+
+.hh{
+    color: #CCF381;
+}
+
+.forgot{
+    color: white;
+    text-decoration: none;
+}
+.login-off{
+    margin-left: 8px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 22px;
+}
+.login, .logoff{    
+    font-size: 12px;
+    margin-left: 18px;
+
+}
+
+/* about me page css */
+.aboutClass{
+    display: flex;
+}
+.aboutClass1{
+    width: 33%;
+    height: 100vh;
+    background-color: aqua;
+}
+.aboutClass2{
+    width: 33%;
+    height: 100vh;
+    background-color:darkgray;
+}
+.aboutClass3{
+    width: 34%;
+    height: 100vh;
+    background-color: rgb(82, 231, 59)
+}
+
+.ProjectClass{
+    display: flex;
+}
+.ProjectClass1{
+    width: 50%;
+    height: 100vh;
+    background-color: lightskyblue;
+}
+.ProjectClass2{
+    width: 50%;
+    height: 100vh;
+}
+.ProjectClass21{
+    width:100%;
+    height: 50%;
+    background-color: rgb(184, 150, 171);
+}
+.ProjectClass22{
+    width:100%;
+    height: 50%;
+    background-color: rgb(175, 240, 231);
+}
+/* styling for blogs page */
+.containerBlogs{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex
+}
+.card{
+    border: 1px solid hsl(0, 0%, 4%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+    max-width: 400px;
+    margin: 10px;
+    padding: 30px 15px;
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+@media (max-width: 1024px) {
     .div0{
         display: block;
     }
     .div1, .div2{
         width: 100%;
     }
+    .container{
+        background-color: rgb(1, 1, 75);
+        width: 100%;
+        height: 100vh;
+    }
+    .aboutClass{
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutClass1, .aboutClass2, .aboutClass3{
+        width: 100%;
+    }
+    .ProjectClass, .ProjectClass2, .containerBlogs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ProjectClass1{
+        width: 100%;
+        height: 100vh;
+    }
+    .ProjectClass2{
+        width: 100%;
+        height: 200vh;
+    }
+    .ProjectClass21{
+        width: 100%;
+        height: 50%;
+    }
+    .ProjectClass22
+    {
+        width: 100%;
+        height: 50%;
+    }
     
 }
 
 
-.humburger{
+
+
+
+
+/* .hamburger{
     display: block;
     cursor: pointer;
     width: 35px;
@@ -66,7 +225,7 @@ body{
     outline: none;
     border: none;
 }
-.humburger .bar, .humburger:after, .humburger:before{
+.hamburger .bar, .hamburger:after, .hamburger:before{
     content: '';
     display: block;
     width: 100%;
@@ -76,12 +235,15 @@ body{
     transition: 0.4s;
 }
 
-.humburger.active:before{
+.hamburger.active:before{
     transform: rotate(-45deg) translate(-8px, 6px);
 }
-.humburger.active:after{
+.hamburger.active:after{
     transform: rotate(-45deg) translate(-9px, -8px);
 }
-.humburger.is-active.bar{
+.hamburger.is-active.bar{
     opacity: 0;
-}
+} */
+
+
+

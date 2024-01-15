@@ -1,51 +1,48 @@
 import React from "react";
+import Navbar from "./Navbar";
 
 export default function LoginComp() {
   return (
     <>
-      <div className="container">
+    <div className="container1">
+    <div className="container">
         <form>
           <h1>Login</h1>
           <div className="loginFoam">
             <tr>
+              <td>Username:</td>
               <td>
-                Username:{" "}
                 <input type="text" placeholder="enter username" required />
               </td>
             </tr>
             <tr>
+            <td>Password:</td>
               <td>
-                Password:{" "}
                 <input type="password" placeholder="password" required></input>
               </td>
             </tr>
             <tr>
               <td>
                 <input type="checkbox" />
-                Remember me
               </td>
+              <td>Remember me</td>
             </tr>
             <tr>
-              <td>Forgot password</td>
+              <a href="/" className="forgot">Forgot password</a>
             </tr>
-            <tr>
-              <td>
-                <button input type="button">
-                  {" "}
-                  Login
-                </button>
+            <tr className="login-off">
+              <td className="login">
+                <input type="button" value="Login" />
               </td>
-              </tr>
-              <tr>
-                <td>
-                  <button input type="button">
-                    Sign Up
-                  </button>
+                <td className="logoff">
+                  < input type="button" value="Sign Up"/>
                 </td>
               </tr>
           </div>
         </form>
       </div>
+    </div>
+
     </>
   );
 }
