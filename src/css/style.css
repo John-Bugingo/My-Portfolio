@@ -6,6 +6,96 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+.container1{
+    background-color: rgb(72,49,212);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    flex-direction: column;
+}
+.container2{
+    border-radius: 14px;
+    background-color: white;
+    width: 40%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.header1{
+    color: blue;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.underline{
+    background-color:blue;
+    height: 6px;
+    width: 15%;
+    border-radius: 7px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;  
+    gap: 0.5rem;  
+    border: none;
+    padding: 20px;
+    border-radius: 8px;
+}
+.input{
+    padding:5px 15px;
+    font-size: 30px;
+    background-color: rgb(221, 221, 221);
+    
+}
+.input input{
+    padding-left: 15px;
+    font-size: 25px;
+    padding: 2px, 10px;
+    background-color: transparent;
+    height: 50px;
+    border: none;
+    outline: 0;
+    color: black;
+    cursor: pointer;        
+}
+.forgot-password label{
+    font-size: 22px;
+    color: blue;  
+    cursor: pointer;  
+}
+.forgot-password p{
+    font-size: 22px;
+    font-weight: 273px;
+}
+.sign-login{
+    margin-top: 23px;
+    gap: 5rem;
+    display: flex;
+}
+.submitt{
+    color: white;
+    background-color: blue;
+    padding: 5px 22px;
+    font-size: 23px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 700;
+}
+.gray{
+    color: white;
+    background-color:gray;
+    padding: 5px 22px;
+    font-size: 23px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
 .div0{
     display: flex;
 }
@@ -59,47 +149,7 @@
 
 
 /*Login page*/
-.container1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100vh;
-    background-color: #4831D4; 
 
-
-}
-.container{
-    /* position: absolute; */
-    /* top: 110px; */
-    background-color: rgb(1, 1, 75);
-    width: 300px;
-   
-}
-
-.container h1{
-    color: white;
-    font-size: 32px;
-    text-align: center;
-    margin-top: 12px;
-}
-.container .loginFoam{
-    display: flex;
-    color: white;
-    font-size: 20px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
-    
-}
-.loginFoam{
-    margin: 12px;
-}
-.container .loginFoam tr{
-    margin-top: 12px;
-   
-}
 
 
 .hh{
@@ -221,6 +271,8 @@
 
 
 @media (max-width: 1024px) {
+    /* home page */
+
     .div0{
         display: block;
     }
@@ -232,11 +284,6 @@
         width: 100%;
         height: auto;
     } 
-    .container{
-        background-color: rgb(1, 1, 75);
-        width: 100%;
-        height: 100vh;
-    }
     .aboutClass{
         display: flex;
         flex-direction: column;
@@ -257,7 +304,7 @@
     .ProjectClass2{
         width: 100%;
         height: 200vh;
-    }
+    } 
     .ProjectClass21{
         width: 100%;
         height: 50%;
@@ -288,10 +335,6 @@
     }
 
     /* login page */
-    .container{
-        width: 100%;
-        height: 100%;   
-    }
     
 }
 

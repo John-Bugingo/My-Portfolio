@@ -1,48 +1,44 @@
 import React from "react";
+import { useState } from "react";
+import { FaLock, FaUser, FaEnvelope } from 'react-icons/fa';
 import Navbar from "./Navbar";
 
 export default function LoginComp() {
+  const [action, setAction]=useState("Login");
   return (
     <>
-    <div className="container1">
-    <div className="container">
-        <form>
-          <h1>Login</h1>
-          <div className="loginFoam">
-            <tr>
-              <td>Username:</td>
-              <td>
-                <input type="text" placeholder="enter username" required />
-              </td>
-            </tr>
-            <tr>
-            <td>Password:</td>
-              <td>
-                <input type="password" placeholder="password" required></input>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <input type="checkbox" />
-              </td>
-              <td>Remember me</td>
-            </tr>
-            <tr>
-              <a href="/" className="forgot">Forgot password</a>
-            </tr>
-            <tr className="login-off">
-              <td className="login">
-                <input type="button" value="Login" />
-              </td>
-                <td className="logoff">
-                  < input type="button" value="Sign Up"/>
-                </td>
-              </tr>
+      <div className="container1">
+       <div className="container2">
+       <div className="header1">
+          <h1>{action}</h1>
+        </div>
+        <div className="underline"></div>
+        <div className="inputs">
+          {action === "Login"?<div></div>:
+          <div className="input">
+          <FaUser /> 
+          <input type="text" placeholder="Name"/>
+          </div>}
+          
+          <div className="input">
+          <FaEnvelope /> 
+          <input type="text" placeholder="Email"/>
           </div>
-        </form>
+          <div className="input">
+          <FaLock />
+          <input type="password" placeholder="Password"/>
+          </div>
+        </div>
+        {action === "Sign Up"?<div></div>:
+        <div className="forgot-password">
+        <p>Lost password? <label>Click here</label></p>
+      </div>}
+        <div className="sign-login">
+          <div className={action === "Sign Up"?"submitt":"gray"} onClick={()=>{setAction("Sign Up")}}>Sign Up</div>
+          <div className={action === "Login"?"submitt":"gray"} onClick={()=>{setAction("Login")}}>Login</div>
+        </div>
+       </div>
       </div>
-    </div>
-
     </>
   );
 }

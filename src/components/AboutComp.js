@@ -8,7 +8,7 @@ const AboutComp = () => {
         <div className="aboutClass1">
           <h1>Education</h1>
           <p>
-            Am currently pursuing Master of science in Information Technliogy at UNILAC,<br/><br/>2016-2021, I did Bachelor of Science degree with honor in Computer Science from University of Rwanda at Clilege of science and technliogy.<br/><br/> 2013-2015, I did advanced level certificate in faculty of MPC (Mathematics, Physics and Computer science) at Nyagatare secondary scholi.<br/><br/> 2010-2012, I did ordinary level certificate at Karangazi secondary scholi.
+            Am currently pursuing Master of science in Information Technology at UNILAC,<br/><br/>2016-2021, I did Bachelor of Science degree with honor in Computer Science from University of Rwanda at College of science and technology.<br/><br/> 2013-2015, I did advanced level certificate in faculty of MPC (Mathematics, Physics and Computer science) at Nyagatare secondary school.<br/><br/> 2010-2012, I did ordinary level certificate at Karangazi secondary school.
           </p>
         </div>
         <div className="aboutClass2">
