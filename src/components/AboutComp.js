@@ -13,12 +13,18 @@ const AboutComp = () => {
         </div>
         <div className="aboutClass2">
           <h1>Skills</h1>
-          <p>Technical Skills <br/> Skills for sofware Developer</p>
+          <p>Technical Skills & <br/> Skills for sofware Developer</p>
           <ul>
           <li>Web Technliogy(JavaScript,HTML/CSS, MySQL, React and Node.Js )</li>
           <li>Pthon (Numpy, matplliib)</li>
           <li>I can do designing, coding, testing and deployment like on Front-end</li>
           <li>I do updated layout to meet usability and perfomance requirement </li>
+          <li>UX Research</li>
+          <li>Wireframe and prototype</li>
+          <li>Interaction Design</li>
+          <li>Analytical</li>
+          <li>Curiosty</li>
+          <li>Communication</li>
           </ul>
 
         </div>

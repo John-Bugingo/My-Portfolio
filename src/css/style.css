@@ -43,8 +43,9 @@
     margin-top: 10px;  
     gap: 0.5rem;  
     border: none;
-    padding: 20px;
+    padding: 15px;
     border-radius: 8px;
+    
 }
 .input{
     padding:5px 15px;
@@ -96,6 +97,42 @@
     font-weight: 700;
 }
 
+/* contact me  */
+.contact1{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(72,49,212);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact2{
+    background-color: white;
+    border-radius: 11px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactheader h1{
+    font-weight: 700;
+    padding:22px;
+}
+.contactname{
+    padding: 0px 22px;    
+}
+.send{
+    color: white;
+    background-color: blue;
+    padding: 2px 8px;
+    font-size: 20px;
+    border-radius: 40px;
+    cursor: pointer;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+/* ...................................... */
 .div0{
     display: flex;
 }
@@ -213,13 +250,11 @@
 }
 .aboutClass2 ul{
     margin: 0 5px 0 25px;
-    font-size: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+    font-size: 16px;    
 }
 .aboutClass2 p{
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
 }
 .aboutClass3{
