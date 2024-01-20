@@ -6,25 +6,8 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
-.container1{
-    background-color: rgb(72,49,212);
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    margin: 0;
-    padding: 0;
-    align-items: center;
-    flex-direction: column;
-}
-.container2{
-    border-radius: 14px;
-    background-color: white;
-    width: 40%;
-    height: 80vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
+
+/* login........... */
 .header1{
     color: blue;
     font-size: 30px;
@@ -97,42 +80,117 @@
     font-weight: 700;
 }
 
+
 /* contact me  */
-.contact1{
+.contact0{
     margin: 0;
     padding: 0;
-    background-color:rgb(72,49,212);
+    box-sizing: border-box;
+    background-color: #CCF381;
+}
+.contact1{
+    background: linear-gradient(#ffdad9, #fff7f9);
+    /* background-color:rgb(72,49,212); */
     height: 100vh;
     display: flex;
-    flex-direction: column;
     align-items: center;
+    margin-top: 80px;
+    gap: 3rem;
 }
+.socialmedia{
+    margin: 35px auto;
+    background: linear-gradient(#ffdad9, #fff7f9);
+    height: 78vh;
+    width: 20%;
+    border-radius: 8px;
+    box-shadow:6px 2px 72px #221716;
+    margin-left: 234px;
+    gap: 4rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.socialmedia .x h1{
+    text-align: center;
+    color: black;
+
+}
+
 .contact2{
+    box-shadow: 5px 5px 25px rgb(169, 79, 79);
     background-color: white;
     border-radius: 11px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items:start;
+    width: 70%;
+    margin-right: 342px;
 }
+.contactfoam{
+    margin: 0px 35px;
+    gap: 0.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+}
+
+.contactInput input, textarea{
+    background-color:rgb(230, 232, 234);
+    width: 400px;
+    height: 35px;
+    padding-left: 20px;
+    font-size: 20px;
+    border: 0;
+    outline: 0;
+}
+.contactInput textarea{
+    height: 110px;
+    resize: none;
+}
+.login2{
+    margin-top: 80px;
+}
+
+
+.container2{
+    border-radius: 14px;
+    background-color: white;
+    width: 40%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .contactheader h1{
     font-weight: 700;
     padding:22px;
 }
-.contactname{
-    padding: 0px 22px;    
-}
-.send{
+
+.send, .gr {
     color: white;
-    background-color: blue;
+    background-color: rgb(221, 74, 74);
     padding: 2px 8px;
     font-size: 20px;
     border-radius: 40px;
     cursor: pointer;
+    width: 100px;
     font-weight: 700;
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin: 22px;
 }
+.gr{
+    width: 200px;
+    background-color: rgb(10, 162, 208);
+}
+
 /* ...................................... */
+
+
+
+
 .div0{
     display: flex;
 }
@@ -156,6 +214,16 @@
     height: 400px;
 } 
 
+/* home */
+.home1{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div0{
+  margin-top: 80px;  
+}
+
 .heading1{
     margin-top: 20px;
     display: flex;
@@ -163,13 +231,12 @@
     align-items: center;
     justify-content: center;
 } 
- 
-
 .div2{
     background-color:hsl(81, 83%, 73%);
     width: 25%;
     display: block;
     height: 100vh;
+    top: 0;
 }
 
 .div2 p{
@@ -183,6 +250,7 @@
     justify-content: end;
     text-align: end;
 }
+/* .............................................. */
 
 
 /*Login page*/
@@ -210,7 +278,15 @@
 }
 
 /* about me page css */
+.abou1{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: blue;
+}
 .aboutClass{
+    margin-top: 80px;
     display: flex;
 }
 .aboutClass1{
@@ -287,10 +363,13 @@
 }
 /* styling for blogs page */
 .containerBlogs{
-    margin: 0;
+    margin:0;
     padding: 0;
     box-sizing: border-box;
     display: flex
+}
+.containerB{
+    margin-top: 80px;
 }
 .card{
     border: 1px solid hsl(0, 0%, 4%);
@@ -302,6 +381,13 @@
     display: inline-block;
     text-align: center;
 }
+.card a{
+    font-size: 20px;
+    color: blue;
+
+}
+
+/* ....................................................... */
 
 
 
@@ -319,6 +405,7 @@
         width: 100%;
         height: auto;
     } 
+    /* about me */
     .aboutClass{
         display: flex;
         flex-direction: column;
@@ -327,6 +414,7 @@
         width: 100%;
         height: auto;
     }
+    /* ................................... */
     .ProjectClass, .ProjectClass2, .containerBlogs{
         display: flex;
         flex-direction: column;
@@ -349,6 +437,27 @@
         width: 100%;
         height: 50%;
     }
+    /* contact me */
+    .contact1{
+        margin-top: 180px;
+        display: flex;
+        flex-direction:column-reverse;
+        height: 100%;
+    }
+    .contactInput input, textarea, .send, .gr{
+        width: auto;
+        height: auto;
+    }
+    .contact2{
+        margin-top: 100px;
+    }
+    .contact2, .socialmedia{
+        margin: auto;
+    }
+
+
+
+    /* ................................................ */
     .div2 p{
         margin: 20px 5px 0 15px;
         font-size: 18px;
