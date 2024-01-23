@@ -99,12 +99,12 @@
 }
 .socialmedia{
     margin: 35px auto;
-    background: linear-gradient(#ffdad9, #fff7f9);
+    background: ;
     height: 78vh;
-    width: 20%;
+    width: 50%;
     border-radius: 8px;
-    box-shadow:6px 2px 72px #221716;
-    margin-left: 234px;
+    /* box-shadow:6px 2px 72px #221716; */
+    margin-left: 34px;
     gap: 4rem;
     display: flex;
     align-items: center;
@@ -115,7 +115,6 @@
     color: black;
 
 }
-
 .contact2{
     box-shadow: 5px 5px 25px rgb(169, 79, 79);
     background-color: white;
@@ -123,8 +122,8 @@
     display: flex;
     flex-direction: column;
     align-items:start;
-    width: 70%;
-    margin-right: 342px;
+    width: 50%;
+    margin-right: 142px;
 }
 .contactfoam{
     margin: 0px 35px;
@@ -133,7 +132,6 @@
     align-items: center;
     flex-direction:column;
 }
-
 .contactInput input, textarea{
     background-color:rgb(230, 232, 234);
     width: 400px;
@@ -150,8 +148,6 @@
 .login2{
     margin-top: 80px;
 }
-
-
 .container2{
     border-radius: 14px;
     background-color: white;
@@ -161,12 +157,10 @@
     align-items: center;
     flex-direction: column;
 }
-
 .contactheader h1{
     font-weight: 700;
     padding:22px;
 }
-
 .send, .gr {
     color: white;
     background-color: rgb(221, 74, 74);
@@ -274,7 +268,13 @@
 .login, .logoff{    
     font-size: 12px;
     margin-left: 18px;
-
+}
+.container1{
+    background-color: rgb(72,49,212);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
 /* about me page css */
